@@ -22,6 +22,33 @@
             font-size: 20px;
         }
 
+        ul > li {
+            color: green;  /* Color verde */
+        }
+
+        ul > li:first-child {
+            font-weight: bold;  /* Negrita para el primer elemento */
+            color: blue;        /* Color azul para el primer elemento */
+        }
+
+        /* Estilo para el último elemento de la lista */
+        ul > li:last-child {
+            font-style: italic;  /* Cursiva para el último elemento */
+            color: red;          /* Color rojo para el último elemento */
+        }
+
+        [class] {
+            background-color:palevioletred;
+            border: 3px inset plum;
+        }
+
+        span + span {
+            padding: 10px;
+            border-color: aquamarine;
+            border-radius: 5px;
+            border-style: dotted;
+        }
+
         div.cajas{
     width: 200px;
     height: 200px;
@@ -43,6 +70,12 @@
         <p>Párrafo dentro de un div</p>
     </div>
 
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ul>
+    <p><span>Texto</span> con <span>múltiples</span> spans</p>
     <div class="cajas">
     </div>
 </body>
