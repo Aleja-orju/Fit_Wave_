@@ -35,8 +35,9 @@ footer {
     background-color: rgb(18, 164, 231);
     display: flex;
     align-items: start;
-    height: 300px;
+    height: 200px;
     justify-content: space-between;
+    padding: 10px;
 }
 
 footer h2{
