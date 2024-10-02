@@ -76,6 +76,10 @@ details ul {
     position: absolute; 
     z-index: 10; 
 }
+
+details ul li {
+    color: white; 
+}
 .secciones-con-imgs {
     display: flex;
     flex-direction: row; 
@@ -83,12 +87,9 @@ details ul {
     gap: 20px; 
     justify-content: space-around;
 }
-details ul li {
-    color: white; 
-}
 img {
-    width: 200px; 
-    height: 200px; 
+    width: 250px; 
+    height: 250px; 
     object-fit: cover; 
     margin: 10px; /* Espacio entre imágenes */
 }
