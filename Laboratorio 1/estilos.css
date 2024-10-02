@@ -19,7 +19,7 @@ header {
     align-items: flex-start;
     background-color: rgb(18, 164, 231);
     justify-content: space-between;
-    height: 110px;
+    height: 200px;
     padding: 10px;
     
 }
@@ -48,14 +48,16 @@ nav {
     margin: 0 auto;
 }
 .logo {
-    margin-right: 0;
+    margin-right: 0; 
+    display: block;
 }
 h1 {
     color: darkblue;
     margin: 0;
 }
 .logo-img {
-    height: 70px;
+    height: 130px;
+    width: 130px;
     margin-right: 10px;
 
 }
@@ -67,6 +69,28 @@ h1 {
 summary {
     color: white;
     font-size: 16px;
+}
+details ul {
+    background-color: rgb(23, 150, 223); 
+    padding: 10px; 
+    position: absolute; 
+    z-index: 10; 
+}
+.secciones-con-imgs {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-around;
+}
+details ul li {
+    color: white; 
+}
+img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; /* Espacio entre imágenes */
 }
 footer {
     background-color: rgb(18, 164, 231);
