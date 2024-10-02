@@ -45,8 +45,8 @@ h1 {
 
 }
 .logo-slogan{
-    color: rgb(0, 255, 136);
-    margin: 0
+    margin: 0;
+    color: rgb(255, 255, 255);
 }
 
 footer {
@@ -71,4 +71,53 @@ footer {
 
 footer h2{
     color: white;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+section {
+    display: flex;   
+    justify-content: space-between;
+    
+
+}
+#comentarios h2 {
+    padding: 10px;
+    margin: 0;
+}
+
+article {
+    padding: 10px;
+    margin: 0;
+}
+form {
+    max-width: 600px;
+    margin: 10px ;
+    padding: 20px;
+    padding-right: 30px;
+    border: 3px solid rgb(23, 150, 223);
+    background-color: white;
+}
+label {
+    display: block;
+    margin-top: px ;
+    margin: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin: 00px;
+    
+}
+#asunto{
+    padding: 20px;
+}
+#boton {
+    width: 50%;
+    background-color: darksalmon;
+    padding: 8px;
+    text-align: center;
 }
