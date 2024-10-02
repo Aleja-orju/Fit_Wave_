@@ -44,6 +44,10 @@ footer h2{
     color: white;
 }
 
+footer li{
+    list-style-type: none;
+}
+
 section {
     display: flex;   
     justify-content: space-between;
