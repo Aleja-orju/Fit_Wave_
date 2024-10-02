@@ -1,3 +1,8 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
@@ -11,12 +16,17 @@ a {
 header {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     background-color: rgb(18, 164, 231);
     justify-content: space-between;
     height: 110px;
     padding: 10px;
     
+}
+
+header #contacto {
+    padding-left: 30px;
+    align-content: stretch;
 }
 nav {
     display: flex;
@@ -25,9 +35,13 @@ nav {
 }
 .header-top {
     display: flex;
-    align-items: center; 
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: stretch;
     width: 100%; 
+}
+
+.header-top h1{
+    color: ghostwhite;
 }
 .header-titles {
     text-align: center; 
@@ -80,8 +94,9 @@ footer {
     margin-bottom: 10px;
 }
 
-footer li{
+li{
     list-style-type: none;
+    color: chartreuse;
 }
 h2 {
     margin: 0;
@@ -120,6 +135,10 @@ form {
     padding-right: 30px;
     border: 3px solid rgb(23, 150, 223);
     background-color: white;
+}
+form #asunto{
+    padding: 10px;
+    margin: 0;
 }
 label {
     display: block;
