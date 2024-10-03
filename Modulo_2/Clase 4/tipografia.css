@@ -1,0 +1,15 @@
+.izquierda p{
+    text-align: left;
+    color: yellow;
+    
+}
+
+.centro p{
+    text-align: center; 
+    color: blue;
+}
+
+.centro p{
+    text-align: right; 
+    color: red;
+}
