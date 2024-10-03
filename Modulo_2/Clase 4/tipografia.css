@@ -1,9 +1,13 @@
+main{
+    text-align: center;
+}
+
 p{
     display: inline-block;
     width: 200px;
     height: 200px;
     border-radius: 50px #000;
-    text-align: center;
+    align-content: center;
 }
 
 #izquierda{

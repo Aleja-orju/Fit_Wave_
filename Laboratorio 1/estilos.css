@@ -80,6 +80,7 @@ details ul {
 details ul li {
     color: white; 
 }
+
 .secciones-con-imgs {
     display: flex;
     flex-direction: row; 
@@ -87,12 +88,14 @@ details ul li {
     gap: 20px; 
     justify-content: space-around;
 }
+
 img {
     width: 250px; 
     height: 250px; 
     object-fit: cover; 
     margin: 10px; /* Espacio entre imágenes */
 }
+
 footer {
     background-color: rgb(18, 164, 231);
     display: flex;
