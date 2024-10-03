@@ -5,8 +5,9 @@ main{
 p{
     display: inline-block;
     width: 200px;
+    padding: 10px;
     height: 200px;
-    border-radius: 50px #000;
+    border-radius: 10px;
     align-content: center;
 }
 
@@ -26,4 +27,16 @@ p{
     text-align: right; 
     color: red;
     background-color: blanchedalmond;
+}
+
+#izquierda:hover{
+    background-color: cadetblue;
+}
+
+#centro:hover{
+    background-color: rgb(23, 122, 106);
+}
+
+#derecha:hover{
+    background-color: rgb(11, 12, 12);
 }
