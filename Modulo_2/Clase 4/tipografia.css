@@ -1,15 +1,28 @@
-.izquierda p{
-    text-align: left;
-    color: yellow;
-    
+main{
+    text-align: center;
+}
+p{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px #000;
+   align-content: center;
 }
 
-.centro p{
+#izquierda{
+    text-align: left;
+    color: rgb(105, 105, 28);
+    background-color: aliceblue;    
+}
+
+#centro{
     text-align: center; 
     color: blue;
+    background-color: beige;
 }
 
-.centro p{
+#derecha{
     text-align: right; 
     color: red;
+    background-color: blanchedalmond;
 }
