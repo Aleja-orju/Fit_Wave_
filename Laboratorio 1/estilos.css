@@ -186,3 +186,29 @@ input, select, textarea {
     padding: 8px;
     text-align: center;
 }
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+thead {
+    background-color: #28a745;
+    color: white;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+tfoot {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+tfoot td {
+    border-top: 2px solid #28a745;
+}
