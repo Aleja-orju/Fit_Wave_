@@ -7,6 +7,10 @@ nav ul {
     width: 100%;
     color: white
 }
+li:hover a {
+    size: 2em;
+    color: aquamarine;
+}
 
 nav a {
     color: white;
@@ -14,17 +18,22 @@ nav a {
     text-decoration-line: none;
     padding: 20px;
 }
+main {
+    background-color: lightgray;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: lightgrey;
 }
 
 .galeria {
     /* Agrega aqu ́ı las propiedades de Grid */
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 400px 400px 400px;
+    width: 400px;
     justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
@@ -58,7 +67,7 @@ header {
 
 .obra:hover {
     size: 30px;
-    color: rgb(141, 53, 10);
+    color: aquamarine;
 }
 
 footer {
