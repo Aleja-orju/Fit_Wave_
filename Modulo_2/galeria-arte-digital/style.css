@@ -17,5 +17,8 @@ header{
     color: white;
     padding: 1rem;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
     align-content: space-between;
 }
