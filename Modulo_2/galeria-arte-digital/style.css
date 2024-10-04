@@ -12,6 +12,7 @@ nav a {
     color: white;
     font-size: 18px;
     text-decoration-line: none;
+    padding: 20px;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     /* Agrega aqu ́ı las propiedades de Grid */
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
 }
@@ -32,12 +34,11 @@ body {
     border: 1px solid #ddd;
     padding: 1rem;
     text-align: center;
-    background-color: cadetblue;
+    background-color: transparent;
+    color: black;
 
 }
-.obra h3 {
-    align-content: first baseline;
-}
+
 
 .obra img {
     max-width: 100%;
@@ -58,4 +59,12 @@ header {
 .obra:hover {
     size: 30px;
     color: rgb(141, 53, 10);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: aliceblue;
+    
 }
