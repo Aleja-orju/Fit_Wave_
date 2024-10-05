@@ -32,8 +32,8 @@ body {
 .galeria {
     /* Agrega aqu ́ı las propiedades de Grid */
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    width: 400px;
+    grid-template-columns: 250px 250px 250px;
+    width: 250px;
     justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
@@ -64,12 +64,8 @@ header {
     align-items: center;
 }
 
-<<<<<<< Updated upstream
 
 .obra:hover {
-=======
-.obra:hover{
->>>>>>> Stashed changes
     size: 30px;
     color: aquamarine;
 }
