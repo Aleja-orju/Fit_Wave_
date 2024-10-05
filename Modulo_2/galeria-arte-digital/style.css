@@ -64,8 +64,12 @@ header {
     align-items: center;
 }
 
+<<<<<<< Updated upstream
 
 .obra:hover {
+=======
+.obra:hover{
+>>>>>>> Stashed changes
     size: 30px;
     color: aquamarine;
 }
