@@ -39,6 +39,7 @@ nav a{
 @media only screen and (max-width: 768px){
     /*Pantallas pequeñas*/
     .container {
+        display: flex;
         flex-direction: column; /* Elementos alineados verticalmente */
       }
 
