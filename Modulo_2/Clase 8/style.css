@@ -36,13 +36,38 @@ nav a{
     justify-content: space-between;
   }
 
+.productos-grid {
+    display: grid;
+    
+
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    /*Pantallas pequeñas ajustados a grid*/
+    .productos-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }   
+}
+
+@media only screen and (max-width: 1024px){
+    /*Pantallas pequeñas ajustados a grid*/
+    .productos-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }   
+}
+
 @media only screen and (max-width: 768px){
     /*Pantallas pequeñas*/
     .container {
         display: flex;
         flex-direction: column; /* Elementos alineados verticalmente */
-      }
-
-    
-        
+      }       
 }
