@@ -72,6 +72,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    padding: 20px;
 }
 li {
     list-style-type: none;
@@ -118,6 +119,12 @@ li {
     margin: 0;
     padding: 20px;
     text-align: center;
+
+}
+
+.fa {
+    color: white;
+    padding: 5px;
 
 }
 footer {
