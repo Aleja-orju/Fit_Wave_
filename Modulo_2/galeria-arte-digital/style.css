@@ -18,9 +18,7 @@ nav a {
     text-decoration-line: none;
     padding: 20px;
 }
-main {
-    background-color: lightgray;
-}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -32,8 +30,8 @@ body {
 .galeria {
     /* Agrega aqu ́ı las propiedades de Grid */
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    width: 250px;
+    grid-template-columns: 400px 400px 400px;
+    width: 400px;
     justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
