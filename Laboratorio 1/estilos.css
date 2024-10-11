@@ -182,6 +182,9 @@ input, select, textarea {
     margin: 00px;
     
 }
+input[type="text"] {
+    background-color: lightcoral;
+}
 #asunto{
     padding: 20px;
 }
