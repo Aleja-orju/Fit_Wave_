@@ -28,10 +28,10 @@ body {
 }
 
 .galeria {
-    /* Agrega aqu ́ı las propiedades de Grid */
+    /* Agrega aquí las propiedades de Grid */
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    width: 400px;
+    grid-template-columns: auto auto auto;
+    width: auto;
     justify-content: flex-start;
     gap: 1rem;
     padding: 1rem;
