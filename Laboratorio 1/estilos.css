@@ -37,6 +37,7 @@ nav {
     align-items: center;
 }
 nav a:hover{
+    background-color: burlywood;
     color: blue;
 }
 
