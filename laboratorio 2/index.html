@@ -145,13 +145,24 @@
                             alt="Calzado para jugar fútbol">
                         <figcaption>Calzado para fútbol</figcaption>
                     </figure>
-                    <figure>
+                    <picture>
+                        <!-- Imagen para pantallas grandes (escritorios) -->
+                        <source media="(min-width: 1024px)" srcset="/Laboratorio 1\img lab\close-up-image-smooth-slim-female-legs-blue-sneakers-near-city-bike.jpg">
+      
+                        <!-- Imagen para pantallas medianas (tabletas) -->
+                        <source media="(min-width: 768px)" srcset="/Laboratorio 1\img lab\close-up-image-smooth-slim-female-legs-blue-sneakers-near-city-bike.jpg">
+      
+                        <!-- Imagen para pantallas pequeñas (móviles) -->
+                        <source media="(max-width: 767px)" srcset="/Laboratorio 1\img lab\close-up-image-smooth-slim-female-legs-blue-sneakers-near-city-bike.jpg">
+
                         <img src="/Laboratorio 1\img lab\close-up-image-smooth-slim-female-legs-blue-sneakers-near-city-bike.jpg"
                             alt="Calzado para ciclismo">
+
                         <figcaption>Calzado para ciclismo</figcaption>
-                    </figure>
+                    </picture>
                 </div>
             </section>
+
 
             <h2>Accesorios Deportivos</h2>
             <section id="accesorios-running" >

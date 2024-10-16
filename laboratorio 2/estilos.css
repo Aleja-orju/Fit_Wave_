@@ -103,15 +103,21 @@ summary {
     }
 }
 
-@media (max-width:800px){
-    header{
-        flex-direction: column;
-    }
-    .nav {
-        flex-direction: column;
+/* Breakpoint 2: Pantallas grandes (escritorios) */
+@media (min-width: 1024px) {
+    header {
+      text-align: left;
+      padding: 40px;
     }
 }
 
+/* Breakpoint 3: Pantallas extra grandes (monitores grandes) */
+@media (min-width: 1440px) {
+    header {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+}
 
 summary {
     color: white;
@@ -134,6 +140,8 @@ details ul li {
     flex-wrap: wrap; 
     gap: 20px; 
     justify-content: space-around;
+    object-fit: cover; 
+    object-position: center; 
 }
 
 img {
