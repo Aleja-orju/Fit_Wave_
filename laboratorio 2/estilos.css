@@ -90,11 +90,14 @@ summary {
     
 }
 
-@media (max-width:800px){
+/* Breakpoint 1: Pantallas medianas (tabletas) */
+@media (min-width: 768px) {
     header{
-        flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
     }
 }
+
 @media (max-width:800px){
     header{
         flex-direction: column;
@@ -165,14 +168,17 @@ li{
     list-style-type: none;
     color: hsl(90, 100%, 50%);
 }
+
 h2 {
     margin: 0;
     padding: 10px;
     background-color: hsl(173, 65%, 48%);
 }
+
 h3 {
     margin: 0;
 }
+
 p {
     margin-top: 0;
     font-size: 15px; 
@@ -180,6 +186,7 @@ p {
     letter-spacing: 0.2px; 
     text-align: left;
 }
+
 section {
     display: flex;
     flex-direction: column;   
@@ -187,8 +194,6 @@ section {
     padding-left: 10px;
     padding-top: 10px;
     gap: 5px
-    
-
 }
 #comentarios h2 {
     padding: 10px;
@@ -209,6 +214,7 @@ article {
     padding: 10px;
     margin: 0;
 }
+
 form {
     max-width: 600px;
     margin: 10px auto;
@@ -219,6 +225,7 @@ form {
     box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1); 
     border: 1px solid hsl(0, 0%, 88%);
 }
+
 form #asunto{
     padding: 10px;
     margin: 0;
@@ -255,10 +262,12 @@ table {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin: auto;
 }
+
 thead {
     background-color: hsl(134, 61%, 41%);
     color: hsl(0, 0%, 100%);
 }
+
 th, td {
     padding: 12px 15px;
     text-align: left;
@@ -267,13 +276,16 @@ th, td {
 tbody tr:hover {
     background-color: hsl(0, 0%, 95%);
 }
+
 tfoot {
     background-color: hsl(210, 17%, 98%);
     font-weight: bold;
 }
+
 tfoot td {
     border-top: 2px solid hsl(134, 61%, 41%);
 }
+
 .video-container {
     background-color: hsl(71, 76%, 53%);
     position: relative;
