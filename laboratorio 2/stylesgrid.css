@@ -97,7 +97,11 @@ h1 {
 
 .sidebar {
     grid-area: sidebar;
-    background-color:lightgray;
+    background-color: transparent;
+}
+.sidebar a{
+    color: black;
+    padding: 5px;
 }
 
 .main {
@@ -105,7 +109,7 @@ h1 {
     background-color: white;
 }
 .sidebar  h3{
-    color: white;
+    color: aquamarine;
     font-size: 1.5rem;
     border: solid 1px white;
     border-radius: 5px;
