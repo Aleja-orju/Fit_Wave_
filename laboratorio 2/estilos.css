@@ -39,12 +39,20 @@ nav {
 .nav {
     align-items: center;
 }
+
+nav a, nav summary {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    transition: color 0.8s ease;
+}
 nav a:hover{
     color: hsl(240, 100%, 50%);
 }
 
 nav summary:hover{
-    color: hsl(240, 100%, 50%)
+    color: hsl(240, 100%, 50%);
 }
 .header-top {
     display: flex;
