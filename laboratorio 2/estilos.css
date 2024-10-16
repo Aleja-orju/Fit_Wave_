@@ -87,11 +87,14 @@ summary {
     
 }
 
-@media (max-width:800px){
+/* Breakpoint 1: Pantallas medianas (tabletas) */
+@media (min-width: 768px) {
     header{
-        flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
     }
 }
+
 @media (max-width:800px){
     header{
         flex-direction: column;
@@ -162,17 +165,21 @@ li{
     list-style-type: none;
     color: chartreuse;
 }
+
 h2 {
     margin: 0;
     padding: 10px;
     background-color: rgb(43, 203, 185);
 }
+
 h3 {
     margin: 0;
 }
+
 p {
     margin-top: 0;
 }
+
 section {
     display: flex;
     flex-direction: column;   
@@ -180,8 +187,6 @@ section {
     padding-left: 10px;
     padding-top: 10px;
     gap: 5px
-    
-
 }
 #comentarios h2 {
     padding: 10px;
@@ -202,6 +207,7 @@ article {
     padding: 10px;
     margin: 0;
 }
+
 form {
     max-width: 600px;
     margin: 10px auto;
@@ -212,6 +218,7 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border: 1px solid #e0e0e0;
 }
+
 form #asunto{
     padding: 10px;
     margin: 0;
@@ -248,10 +255,12 @@ table {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin: auto;
 }
+
 thead {
     background-color: #28a745;
     color: white;
 }
+
 th, td {
     padding: 12px 15px;
     text-align: left;
@@ -260,13 +269,16 @@ th, td {
 tbody tr:hover {
     background-color: #f1f1f1;
 }
+
 tfoot {
     background-color: #f8f9fa;
     font-weight: bold;
 }
+
 tfoot td {
     border-top: 2px solid #28a745;
 }
+
 .video-container {
     background-color: rgb(192, 226, 43);
     position: relative;
