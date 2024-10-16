@@ -118,6 +118,7 @@ h1 {
 .main {
     grid-area: main;
     background-color: white;
+
 }
 
 .sidebar h3 {
@@ -138,6 +139,24 @@ h1 {
     /* background-color: rgb(178, 28, 123); */
 }
 
+.cards {
+    grid-area: cards;
+    width: 75vw;
+    min-width: 130px;
+    max-height: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+  
+}
+
+.cards aside {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .grid-container {
     display: grid;
     /* gap: 10px; */
@@ -145,6 +164,7 @@ h1 {
 
         "header" 180px
         "navbar" 50px
+        "cards" auto
         "main" auto
         "sidebar" 100px
         "footer" 200px;
@@ -191,6 +211,7 @@ img {
 
 .main h2 {
     background-color: hsl(199, 86%, 49%);
+    border-radius: 10px;
     color: white;
     /* padding: 15px;
     margin: 15px; */
@@ -427,6 +448,7 @@ p {
             200px auto;
 
     }
+
     .secciones-con-imgs {
         grid-template-columns: auto auto;
         width: auto;
@@ -434,6 +456,7 @@ p {
         gap: 1rem;
         padding: 1rem;
     }
+
     img {
         width: 25vw;
         max-width: 1000px;
@@ -446,6 +469,79 @@ p {
 
 }
 
+/*aquí organice el css de las tarjetas de servicios*/
+.project-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-inner div{
+    border: solid 1px black;
+    
+}
+
+.card-inner:hover {
+    transform: rotateY(-180deg);
+
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: hsl(199, 86%, 49%);
+    border-radius: 10px;
+    align-items: center;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.card h2 {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card-back {
+    transform: rotateY(180deg);
+    color: black;
+}
+* p {
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+/* .project-card h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
+
+} */
+
+
+/*aqui termine el css de las tarjetas*/
 @media (min-width: 900px) {
     .secciones-con-imgs {
         grid-template-columns: auto auto auto auto;
@@ -454,6 +550,7 @@ p {
         gap: 1rem;
         padding: 1rem;
     }
+
     img {
         /* min-width: 130px; */
         width: 12vw;
