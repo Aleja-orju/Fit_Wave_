@@ -358,7 +358,7 @@ p {
     letter-spacing: 0.2px;
     text-align: left;
 }
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     .header {
         flex-direction: column;
     }
@@ -366,7 +366,7 @@ p {
     .navbar {
         flex-direction: column;
     }
-}
+} */
 @keyframes girarYDesplazar {
     0% {
         transform: rotate(0deg) translateX(0);
