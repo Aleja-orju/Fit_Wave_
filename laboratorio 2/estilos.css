@@ -50,10 +50,10 @@ nav a, nav summary {
 nav a:hover{
     color: hsl(240, 100%, 50%);
 }
-
 nav summary:hover{
     color: hsl(240, 100%, 50%);
 }
+
 .header-top {
     display: flex;
     align-items: center;
