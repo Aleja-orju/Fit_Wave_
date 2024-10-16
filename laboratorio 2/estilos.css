@@ -47,10 +47,7 @@ nav a, nav summary {
     padding-left: 5px;
     transition: color 0.8s ease;
 }
-nav a:hover{
-    color: hsl(240, 100%, 50%);
-}
-nav summary:hover{
+nav a:hover, nav summary:hover {
     color: hsl(240, 100%, 50%);
 }
 
