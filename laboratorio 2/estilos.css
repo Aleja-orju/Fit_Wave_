@@ -80,10 +80,10 @@ h1 {
     height: 130px;
     width: 130px;
     margin-right: 10px;
-
+    animation: girarYDesplazar 5s infinite;
+    animation-timing-function: ease-in-out;
 }
 .logo-slogan{
-    background-color: transparent;
     margin: 0;
     color: hsl(0, 0%, 100%);
 }
@@ -177,8 +177,12 @@ li{
 h2 {
     margin: 0;
     padding: 10px;
-    background-color: hsl(173, 65%, 48%);
+    background: linear-gradient(45deg, hsl(173, 65%, 48%), hsl(199, 86%, 49%));
 }
+h2:hover {
+    background: linear-gradient(45deg, hsl(173, 65%, 58%), hsl(199, 86%, 59%));
+}
+
 
 h3 {
     margin: 0;
@@ -306,9 +310,26 @@ tfoot td {
     height : 100%;
     }
 
-h2{
-    background: linear-gradient(45deg, hsl(173, 65%, 48%), hsl(199, 86%, 49%));
+
+
+
+
+@keyframes girarYDesplazar {
+    0% {
+        transform: rotate(0deg) translateX(0);
+    }
+    25% {
+        transform: rotate(360deg) translateX(0);
+    }
+    50% {
+        transform: rotate(360deg) translateX(50px);
+    }
+    75% {
+        transform: rotate(360deg) translateX(0);
+    }
+    100% {
+        transform: rotate(360deg) translateX(0);
+    }
 }
-h2:hover {
-    background: linear-gradient(45deg, hsl(173, 65%, 58%), hsl(199, 86%, 59%));
-}
+
+
