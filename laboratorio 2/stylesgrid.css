@@ -98,6 +98,10 @@ h1 {
 .sidebar {
     grid-area: sidebar;
     background-color: transparent;
+    position: fixed;
+    margin-top: 250px;
+    height: 100%;
+    width: 160px;
 }
 .sidebar a{
     color: black;
