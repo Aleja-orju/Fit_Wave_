@@ -79,8 +79,6 @@ h1 {
 }
 
 .grid-container>* {
-    /* box-shadow: -1px 1px 7px 0px magenta; */
-    /* border-radius: 5px; */
     padding: 10px;
     text-align: center;
 }
