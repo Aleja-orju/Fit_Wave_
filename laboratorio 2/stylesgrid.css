@@ -406,15 +406,7 @@ p {
     text-align: left;
 }
 
-/* @media (max-width:800px) {
-    .header {
-        flex-direction: column;
-    }
 
-    .navbar {
-        flex-direction: column;
-    }
-} */
 @keyframes girarYDesplazar {
     0% {
         transform: rotate(0deg) translateX(0);
