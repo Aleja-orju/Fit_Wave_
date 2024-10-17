@@ -12,5 +12,5 @@ fetch("http://jsonplaceholder.typicode.com/post", {
     },
 })
 .then(res => res.json())
-.then(data => {})
+.then(data => {data.json()})
 .catch(err => console.log(err));
