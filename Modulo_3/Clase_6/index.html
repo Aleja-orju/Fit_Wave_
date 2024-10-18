@@ -14,9 +14,9 @@
     fetch("https://jsonplaceholder.typicode.com/users?limit=3")
         .then(response => response.json())
         .then(users => {
-            const galeria = document.getElementById('galeria-usuarios');
+            const galeria = document.getElementById('galeria-usuarios'); //BANCO O CONTENEDOR DE DIV
 
-            //Recorremos los usuarios y creamos ua tarjeta por cada uno
+            //Recorremos los usuarios y creamos una tarjeta por cada uno
             users.forEach(user => {
                 //Creamos un div para la tarjeta
                 const tarjeta = document.createElement('div');
@@ -36,6 +36,7 @@
                 //Agregamos los elementos a la tarjeta
                 tarjeta.appendChild(name);
                 tarjeta.appendChild(email);
+                tarjeta.appendChild(tel);
 
                 //Agregamos la tarjeta al contenedor de la galeria
                 galeria.appendChild(tarjeta);

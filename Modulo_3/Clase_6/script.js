@@ -1,4 +1,4 @@
-/*//EJERCICIO 1
+//EJERCICIO 1
 const perfil= {
     "nombre": "Brayan Granados",
     "edad": 26,
@@ -44,7 +44,7 @@ fetch ("https://jsonplaceholder.typicode.com/users/1",{
     })
     .catch(error => {
         console.error("Error de conexión:", error); // Manejo de errores
-    });*/
+    });
 
 //EJERCICIO 5
 const nuevoPost = {
@@ -53,20 +53,20 @@ const nuevoPost = {
     userId: 1
 };
 
-fetch("http://jsonplaceholder.typicode.com/post", {
+fetch('https://jsonplaceholder.typicode.com/posts', {
     method: "POST",
     body: JSON.stringify(nuevoPost),
     headers: {
         "Content-Type": "application/json; charset=UTF-8",
     },
 })
-.then(function (response) {
+.then(response => {
     if (!response.ok) {
-        throw Error("Mostrar error" + response.statusText);
+        throw Error("Error en la red: " + response.statusText);
     }
     return response.json();
 })
 .then(data => {
     console.log("Datos Recibidos: ", data);
 })
-.catch(error => console.error("Error" + error));
+.catch(error => console.error("Error" , error));
