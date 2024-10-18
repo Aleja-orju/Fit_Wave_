@@ -11,6 +11,12 @@ fetch("http://jsonplaceholder.typicode.com/post", {
         "Content-Type": "application/json; charset=UTF-8",
     },
 })
-.then(res => res.json())
-.then(data => {data.json()})
-.catch(err => console.log(err));
+.then(function (response) {
+    if (!response.ok) {
+        throw Error(response.json());
+    }
+    return response.json();
+})
+.then(data => {
+    console.log("Datos Recibidos: " + data);})
+.catch(error => console.error("Error" + error));
