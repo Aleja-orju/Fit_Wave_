@@ -79,8 +79,6 @@ h1 {
 }
 
 .grid-container>* {
-    /* box-shadow: -1px 1px 7px 0px magenta; */
-    /* border-radius: 5px; */
     padding: 10px;
     text-align: center;
 }
@@ -406,15 +404,7 @@ p {
     text-align: left;
 }
 
-/* @media (max-width:800px) {
-    .header {
-        flex-direction: column;
-    }
 
-    .navbar {
-        flex-direction: column;
-    }
-} */
 @keyframes girarYDesplazar {
     0% {
         transform: rotate(0deg) translateX(0);
