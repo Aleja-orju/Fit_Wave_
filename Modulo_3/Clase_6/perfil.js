@@ -18,10 +18,16 @@ const perfilJSON = `{
 
 // Paso 2: Convertir el JSON a un objeto JavaScript e imprimirlo
 const perfil = JSON.parse(perfilJSON);
-console.log("Nombre:", perfil.nombre);
+console.log("Nombre:", perfil.buscandoTrabajo);
 console.log("Lenguajes favoritos:", perfil.lenguajesFavoritos.join(", "));
 
 // Paso 3: Actualizar el objeto agregando un nuevo lenguaje de programación
 perfil.lenguajesFavoritos.push("C++");
 const perfilActualizadoJSON = JSON.stringify(perfil, null, 2);
 console.log("Perfil actualizado en JSON:", perfilActualizadoJSON);
+
+fetch("https://jsonplaceholder.typicode.com/users/1")
+.then (Response => Response.json())
+.then (data => console.log(data))
+.catch (error => console.error("Error:", error));
+
