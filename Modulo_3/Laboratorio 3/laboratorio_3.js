@@ -6,6 +6,37 @@
 
 //Desarrollo ejercicio 3
 
+//Declaración de Variables
+let nombreUsuario = "bragranav";
+let edad = 25;
+const estaActivo = false;
+const producto = {
+    nombre: "Camisa Fitwave",
+    Precio: 50000,
+    Disponible: true
+}
+
+//Verificar la edad
+if (edad >= 18){
+    console.log("El usuario tiene: ", edad," años. Es mayor de edad")
+}else {
+    console.log("Es usuario es menor de edad, ", edad)
+}
+
+//Comparar precios
+let precio1=100;
+let precio2=150;
+
+if (precio1>precio2){
+    console.log("El valor menor es el precio 2: ",precio2);
+}else {
+    console.log("El valor menor es el precio 1: ",precio1);
+}
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i)
+}
+
 //Una función tradicional que salude al usuario
 
 function saludar (nombre) {
