@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Fit Wave</title>
 </head>
+
 <body>
+<header>
+    <div class="toggle-container">
+        <input type="checkbox" id="toggle-button">
+        <label for="toggle-button" class="toggle-label">
+            <div class="sun-moon"></div>
+        </label>
+    </div>
+</header>
+
      <!--PARTE 2: FORMULARIOS-->
      <form id="contacto" action="#" method="post">
         <h2>Contáctanos</h2>
@@ -29,13 +39,14 @@
         <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
         <!-- Agregue un checkbox-->
         <div>
-            <input type="checkbox" name="checkbox" id="suscr¡be1"> 
+            <input type="checkbox" name="checkbox" id="suscribe1">
             <label for="suscribe1">Suscribete al boletín de noticias</label>
         </div>
         
         <button  id="boton" type="submit">Enviar Mensaje </button>
     </form>
-    
+
+<script src="main.js"></script>
     
 </body>
 </html>
