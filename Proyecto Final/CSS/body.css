@@ -1,0 +1,29 @@
+/* estos son los estilos para mobile first */
+@media (max-width: 380px) {
+
+    /* estilos para imagen responsive mobile first */
+
+    .img-ppal {
+        width: 100vw;
+        
+        margin: auto;
+    }
+
+    .imagen-principal {
+        width: 100%;
+        height: auto;
+
+    }
+    /* texto responsive mobile first */
+    .lema {
+        font-size: clamp(1.2em, 5vw, 5em);
+        margin-bottom: .5em;
+        padding: 20px 7px;
+        text-transform: uppercase;
+        
+    }
+
+    /* estilos para carousel responsive */
+    /* hola */
+
+}
