@@ -23,7 +23,23 @@
         
     }
 
-    /* estilos para carousel responsive */
-    /* hola */
+    /*Estilos para el grid container de fotos*/
+    .grid-item {
+        background-color: cyan;
+        padding: 5px 0px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out;
+        border: solid rgb(255, 255, 255);
+
+
+    }
+
+    .grid-item:hover{
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
 
 }
