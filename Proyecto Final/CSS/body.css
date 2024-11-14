@@ -1,0 +1,45 @@
+/* estos son los estilos para mobile first */
+@media (max-width: 380px) {
+
+    /* estilos para imagen responsive mobile first */
+
+    .img-ppal {
+        width: 100vw;
+        
+        margin: auto;
+    }
+
+    .imagen-principal {
+        width: 100%;
+        height: auto;
+
+    }
+    /* texto responsive mobile first */
+    .lema {
+        font-size: clamp(1.2em, 5vw, 5em);
+        margin-bottom: .5em;
+        padding: 20px 7px;
+        text-transform: uppercase;
+        
+    }
+
+    /*Estilos para el grid container de fotos*/
+    .grid-item {
+        background-color: cyan;
+        padding: 5px 0px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out;
+        border: solid rgb(255, 255, 255);
+
+
+    }
+
+    .grid-item:hover{
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+
+}
