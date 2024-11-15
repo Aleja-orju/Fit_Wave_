@@ -5,7 +5,7 @@
 }
 
 /* creación de estilos para el header mobile first */
-@media (max-width: 380px){
+@media (max-width: 600px){
     .header {
         background-color: var(--color-primario);
         display: flex;
