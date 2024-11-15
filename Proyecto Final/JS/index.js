@@ -23,4 +23,15 @@ window.addEventListener('load', function () {
 
     })
 })
+
+window.addEventListener('load', function () {
+    new Glider(document.querySelector('.carousel__lista_1'), {
+        slidesToScroll: 1,
+        slidesToShow: 1.5,
+        draggable: true,
+        dots: '.dots',
+    
+
+    })
+})
 // hola
