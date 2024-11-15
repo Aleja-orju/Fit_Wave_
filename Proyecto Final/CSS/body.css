@@ -1,11 +1,11 @@
 /* estos son los estilos para mobile first */
-@media (max-width: 380px) {
+@media (max-width: 600px) {
 
     /* estilos para imagen responsive mobile first */
 
     .img-ppal {
         width: 100vw;
-        
+
         margin: auto;
     }
 
@@ -14,20 +14,31 @@
         height: auto;
 
     }
+
     /* texto responsive mobile first */
     .lema {
         font-size: clamp(1.2em, 5vw, 5em);
         margin-bottom: .5em;
         padding: 20px 7px;
         text-transform: uppercase;
-        
+
     }
+
+    .ropa-deportiva {
+        border-bottom: solid 2px var(--color-primario);
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .mujer,
+    .hombre {
+        text-transform: none;
+    }
+
 
     /*Estilos para el grid container de fotos*/
     .grid-item {
-        background-color: cyan;
-        padding: 5px 0px;
-        margin: 5px;
+           
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,9 +48,72 @@
 
     }
 
-    .grid-item:hover{
+    .grid-item:hover {
         filter: opacity(0.9);
         transform: scale(1.04);
     }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)   );
+        justify-content: center;
+        grid-auto-rows: auto;
+        gap: 5px;
+
+    }
+    .grid-container img {
+        width: 100%;
+        height: auto;
+
+    }
+    /*estilos para el formulario*/
+    form {
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 20px;
+        padding-right: 30px;
+        border-radius: 3px solid hsl(202, 81%, 48%);
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1); 
+        border: 1px solid hsl(0, 0%, 88%);
+    }
+    
+    form #asunto{
+        padding: 10px;
+        margin: 0;
+    }
+    label {
+        display: block;
+        margin-top: px ;
+        margin: 10px;
+    }
+    input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 6px;
+        margin: 00px;
+        
+    }
+    .input_label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+   
+   
+    #asunto{
+        padding: 20px;
+    }
+    #boton {
+        width: 50%;
+        background-color: var(--color-secundario);
+        padding: 8px;
+        text-align: center;
+        
+    }
+    
 
 }
