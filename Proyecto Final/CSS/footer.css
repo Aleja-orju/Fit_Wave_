@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+    .footer {
+
+        background-color: var(--color-primario);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        font-size: clamp(1em, 3vw, 1em);         
+        text-transform: capitalize;
+        color: var(--color-inverso);
+        padding: 0px;
+        margin: 0;
+
+    }
+    .footer-content a{
+        color: var(--color-texto);
+        font-size: clamp(1.2em, 5vw, 1em);
+    }
+
+    .h2-footer {
+        background-color: var(--color-secundario);
+        
+        margin-top: 10px;
+        
+    }
+    .copyright {
+        background-color: var(--color-secundario);
+        display: block;
+        justify-content: center;
+        text-align: center;
+        border-top: solid 3px white;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    
+}
