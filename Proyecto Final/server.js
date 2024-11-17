@@ -23,7 +23,7 @@ db.connect(err => {
 
 // Middlewares
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 //app.get('/favicon.ico', (req, res) => res.status(204).end());
 app.use(express.json());
 
