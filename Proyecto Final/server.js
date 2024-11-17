@@ -4,6 +4,7 @@ const mysql = require('mysql2');
 const bcrypt = require('bcrypt');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cookieParser = require('cookie-parser');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -23,14 +24,24 @@ db.connect(err => {
 
 // Middlewares
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
-//app.get('/favicon.ico', (req, res) => res.status(204).end());
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
-
+app.use(cookieParser());
 
 // Rutas
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, './login.html')));
-app.get('/register', (req, res) => res.sendFile(path.join(__dirname, './register.html')));
+app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'views/login.html')));
+app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'views/register.html')));
+app.get('/index.html', (req, res) => {
+    // Asegúrate de que la ruta esté correcta
+    res.sendFile(path.join(__dirname, 'views/index.html'));
+});
+app.get('/index.html', (req, res) => {
+    // Redirige si la cookie de usuario no está presente
+    if (!req.cookies.username) {
+        return res.redirect('/login');
+    }
+    res.sendFile(path.join(__dirname, 'views/index.html'));
+});
 
 // Registro de usuarios
 app.post('/register', async (req, res) => {
@@ -59,9 +70,12 @@ app.post('/login', (req, res) => {
     db.query(query, [username], async (err, results) => {
         if (err) {
             res.status(500).send('Error interno del servidor.');
-        } else if (results.length === 0 || !(await bcrypt.compare(password, results[0].password))) {
+        } else
+            if (results.length === 0 || !(await bcrypt.compare(password, results[0].password))) {
             res.status(400).send('Usuario o contraseña incorrectos.');
         } else {
+            // Iniciar sesión y redirigir al frontend con el nombre de usuario
+            res.cookie('username', results[0].username, { maxAge: 900000});
             res.status(200).send('Inicio de sesión exitoso.');
         }
     });
