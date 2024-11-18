@@ -154,7 +154,7 @@
     .mujer,
     .hombre {
         text-transform: uppercase;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     /* Estilos para el grid container de fotos */
