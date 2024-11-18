@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 699px) {
 
     .footer {
 
@@ -39,7 +39,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 700x) {
 
     .footer {
         background-color: var(--color-primario);
