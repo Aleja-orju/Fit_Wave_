@@ -125,8 +125,9 @@
         color: var(--color-texto);
         display: flex;
         justify-content: space-between;
+        align-items: flex-end;
         gap: 15px; 
-        width: clamp(100px, 0.5vw, 300px); 
+        width: auto; 
         height: auto;
         padding: 0;
     }
@@ -159,5 +160,24 @@
         font-size: clamp(3em, 0.8vw, 10em);
     }
     
+    .user,
+    .find,
+    .shop {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+        color: var(--color-texto);
+        font-size: 30px;
+
+    }
+
+    .user:hover,
+    .find:hover,
+    .shop:hover {
+        cursor: pointer;
+        transform: scale(1.8);
+    }
+
 }
 

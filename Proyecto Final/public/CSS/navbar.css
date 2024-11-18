@@ -108,33 +108,8 @@
         line-height: 30px;
         margin: 0;
     }
-    .open-menu,
-    .close-menu,
-    .user,
-    .find,
-    .shop {
-        background: none;
-        border: none;
-        cursor: pointer;
-        display: block;
 
-    }
-    .open-menu,
-    .user,
-    .find,
-    .shop {
-        color: var(--color-texto);
-        font-size: 30px;
-        margin-left: 10px;
-    }
 
-    .open-menu:hover,
-    .user:hover,
-    .find:hover,
-    .shop:hover {
-        cursor: pointer;
-        transform: scale(1.8);
-    }
 
     .menu {
         display: flex;
