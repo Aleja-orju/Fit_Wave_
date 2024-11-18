@@ -125,6 +125,7 @@
     .shop {
         color: var(--color-texto);
         font-size: 30px;
+        margin-right: 10px;
     }
 
     .open-menu:hover,
