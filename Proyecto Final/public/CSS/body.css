@@ -139,7 +139,7 @@
 
     /* texto para pantallas grandes */
     .lema {
-        font-size: clamp(2em, 3vw, 4em);
+        font-size: clamp(1em, 3vw, 3em);
         margin-bottom: 1em;
         padding: 30px 15px;
         text-transform: uppercase;
@@ -174,7 +174,7 @@
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 0.6fr));
         justify-content: center;
         grid-auto-rows: auto;
         gap: 10px;
