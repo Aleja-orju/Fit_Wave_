@@ -124,7 +124,7 @@
     .find,
     .shop {
         color: var(--color-texto);
-        font-size: 8px;
+        font-size: 30px;
     }
 
     .open-menu:hover,
