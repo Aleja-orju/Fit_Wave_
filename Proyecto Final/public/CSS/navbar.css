@@ -119,6 +119,21 @@
         display: block;
 
     }
+    .open-menu,
+    .user,
+    .find,
+    .shop {
+        color: var(--color-texto);
+        font-size: 8px;
+    }
+
+    .open-menu:hover,
+    .user:hover,
+    .find:hover,
+    .shop:hover {
+        cursor: pointer;
+        transform: scale(1.8);
+    }
 
     .menu {
         display: flex;
