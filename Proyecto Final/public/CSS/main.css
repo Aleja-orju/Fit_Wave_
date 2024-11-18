@@ -60,3 +60,19 @@ h2 {
 }
 
 /* hola */
+
+@media (min-width: 601px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: clamp(2em, 5vw, 5em);
+    margin-bottom: .3em;
+  }
+  h2 {
+    font-size: clamp(2em, 5vw, 5em);
+    margin-bottom: .3em;
+  }
+}

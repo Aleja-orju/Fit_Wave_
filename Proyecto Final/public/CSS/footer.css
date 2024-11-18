@@ -37,3 +37,87 @@
     
     
 }
+
+
+@media (min-width: 601px) {
+    .header {
+        background-color: var(--color-primario);
+        display: flex;
+        flex-direction: row; /* Alinear elementos en fila */
+        justify-content: space-between; 
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: clamp(170px, 1vw, 350px); /* Altura adaptable */
+        padding: 10px; 
+        margin: 0;
+    }
+
+    .open-menu {
+        display: none;
+    }
+
+    .header-top {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: flex-start;
+        gap: 10px;
+        flex-wrap: nowrap; /* Evita que los elementos se rompan a otra línea */
+        width: 100%;
+        margin: 0px;
+    }    
+
+    .logo-img {
+        background-color: black;
+        height: clamp(130px, 0.3vw, 286px); 
+        width: clamp(150px, 0.3vw, 330px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static; /* Dejar que siga el flujo normal */
+        margin: 0px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .icons-users {
+        color: var(--color-texto);
+        display: flex;
+        justify-content: space-between;
+        gap: 15px; 
+        width: clamp(100px, 0.5vw, 300px); 
+        height: auto;
+        padding: 0;
+    }
+
+    .icons-users > i {
+        height: clamp(15px, 15vw, 50px);
+        width: auto;
+    }
+
+    .header-titles {
+        content-visibility: visible; /* Mostrar contenido */
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left top;
+        font-size: clamp(1em, 0.2vw, 5em); /* Tamaño de texto adecuado */
+        font-weight: bold;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        color: var(--color-texto);
+    }
+
+    .logo-slogan  {
+        font-size: clamp(2em, 0.3vw, 7em)
+    }
+
+    .header-top h1{
+        font-size: clamp(3em, 0.8vw, 10em);
+    }
+    
+}
+

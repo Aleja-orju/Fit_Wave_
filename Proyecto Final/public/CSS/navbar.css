@@ -91,3 +91,78 @@
 
    /* hol */
 }
+
+
+
+@media (min-width: 601px) {
+    .navbar {
+        background-color: var(--color-secundario);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        cursor: pointer
+
+    }
+
+    .open-menu {
+        display: none;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: flex-end;
+    }
+
+    .accesorios, .Calzado, .ropa {
+        color: var(--color-texto);
+        margin: clamp(5px, 1vw, 15px);
+        font-size: clamp(15px, 2vw, 35px);
+    }
+
+    .ropa-ul, .accesorios-ul, .calzado-ul {
+        background-color: transparent;
+        display: block;
+        color: var(--color-texto);
+        padding: clamp(5px, 1vw, 15px);
+        text-decoration: none;
+        cursor: pointer;
+        font-size: clamp(15px, 2vw, 35px);
+    }
+
+    .navbar a {
+        padding: 5px;
+        text-decoration: none;
+        color: var(--color-texto);
+        font-size: clamp(15px, 2vw, 35px);
+    }
+
+    .contacto a {
+        text-decoration: none;
+        color: var(--color-texto);
+        font-size: clamp(15px, 2vw, 35px);
+        margin: clamp(5px, 1vw, 15px);
+    }
+
+    .navbar a:hover {
+        color: var(--menu-bckground-color);
+    }
+}
