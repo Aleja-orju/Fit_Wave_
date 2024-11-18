@@ -108,6 +108,17 @@
         line-height: 30px;
         margin: 0;
     }
+    .open-menu,
+    .close-menu,
+    .user,
+    .find,
+    .shop {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+
+    }
 
     .menu {
         display: flex;
