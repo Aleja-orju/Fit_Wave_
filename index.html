@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Wave</title>
+    <!-- agregue el script para hacer uso de iconos -->
+    <script src="https://kit.fontawesome.com/b1d305bc64.js" crossorigin="anonymous"></script>
+    <!-- agregue link de url para normalizar la pagina web y que funicone bien en cualquier navegador -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- agregue link para la fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- agrgue link url para los estilos de glider js, una libreria que permite hacer carousel de manera responsive -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <!-- agregue los estilos propios del proyecto -->
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/body.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- agregue el script que permite hacer acciones en el html -->
+    <script defer src="/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <button class="open-menu" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="header-top">
+            <a href="#" class="logo">
+                <img src="IMG/fit wave.PNG" alt="logo fit wave" class="logo-img">
+            </a>
+            <div class="header-titles">
+                <h1 id="titulo ">FitWave</h1>
+                <h2 class="logo-slogan">Equipamiento que te impulsa a vencer.</h2>
+            </div>
+        </div>
+        <div class="icons-users">
+
+            <div><button class="find"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            <div><button onclick="window.location.href='/login'" class="user" aria-label="acceso usuario"><i id="user-name" class="fa-regular fa-user"></i></button></div>
+            <div><button class="shop"><i class="fa-solid fa-cart-shopping"></i></button></div>
+
+        </div>
+
+    </header>
+    <nav class="navbar">
+
+        <button class="close-menu" aria-label="Cerrar menú"> <i class="fa-solid fa-xmark"></i></button>
+
+
+        <div class="menu">
+            <details class="details-ropa">
+                <summary class="ropa">Ropa</summary>
+                <ul class="ropa-ul">
+                    <li><a href="#ropa-mujer">Mujer</a></li>
+                    <li><a href="#ropa-hombre">Hombre</a></li>
+                </ul>
+            </details>
+            <details class="details-calzado">
+                <summary class="Calzado">Calzado</summary>
+                <ul class="calzado-ul">
+                    <li><a href="#calzado-running">Running</a></li>
+                    <li><a href="#calzado-trainning">Trainning</a></li>
+                </ul>
+            </details>
+            <details class="details-accesorios">
+                <summary class="accesorios">Accesorios</summary>
+                <ul class="accesorios-ul">
+                    <li><a href="#accesorios-running">Running</a></li>
+                    <li><a href="#accesorios-gimnasio">Gimnasio</a></li>
+                </ul>
+            </details>
+        </div>
+        <div class="contacto">
+            <a href="#precios" class="link-nav">Precios</a>
+            <a href="#quienes-somos" class="link-nav">¿Quienes somos?</a>
+            <a href="#contacto" class="link-nav">Contáctanos</a>
+        </div>
+
+    </nav>
+    <div>
+        <section class="img-ppal">
+            <img class="imagen-principal" src="IMG/pexels-tati-alves-661988314-29022958.jpg" alt="imagen principal">
+        </section>
+    </div>
+    <div>
+        <section class="texto-motivador">
+            <h2 class="lema"> <span>Mejora tu rendimiento y disfruta al máximo de tus actividades favoritas.</span>
+            </h2>
+        </section>
+    </div>
+    <div class="carosuel">
+        <div class="carousel__contenedor">
+            
+            <div class="carousel__lista">
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/carrusel 1/amarrando guayo.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/carrusel 1/ciclismo.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/carrusel 1/tennis.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/carrusel 1/volleyball.jpg" alt="futbol">
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div role="tablist" class="carousel__indicadores"></div>
+    </div>
+    <h1 class="lema ropa-deportiva" id="ropa-deportiva">Ropa Deportiva</h1>
+    <h2 class="lema mujer" id="ropa-mujer">Mujer</h2>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/patines.jpg" alt="patines mujer">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/espuma.jpg" alt="colchoneta mujer">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/leggins.jpg" alt="leggins">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/boxeo.jpg" alt="Boxeo">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/tennis mujer.jpg" alt="tennis mujer">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 1/Runing.jpg" alt="Runing">
+        </div>
+
+    </section>
+    <h2 class="lema hombre" id="ropa-hombre">Hombre</h2>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 2/baseball.jpg" alt="Baseball">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 2/basketball.jpg" alt="basketball">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 2/ciclismo hombre.jpg" alt="ciclismo">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 2/futbol 3 hombre.jpg" alt="futbol">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 2/tennis hombre.jpg" alt="tennis hombre">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src=/IMG/grid%202/volleyball%20hombre.jpg alt="Volleyball hombre">
+        </div>
+
+    </section>
+
+    <!-- Ingreso de calzado deportivo -->
+    <h1 class="lema ropa-deportiva" id="calzado deportivo">Calzado Deportivo</h1>
+    <h2 class="lema mujer" id="calzado-running">Running</h2>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 3/running 1.jpg" alt="patines mujer">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 3/running 2.jpg" alt="colchoneta mujer">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 3/running 3.jpg" alt="leggins">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 3/running 4.jpg" alt="Boxeo">
+        </div>
+
+    </section>
+    <h2 class="lema hombre" id="training">Training</h2>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 4/training 1.jpg" alt="Baseball">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 4/training 2.jpg" alt="basketball">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 4/training 3.jpg" alt="ciclismo">
+        </div>
+        <div class="grid-item">
+            <img loading="lazy" src="IMG/grid 4/training 4.jpg" alt="futbol">
+        </div>
+
+    </section>
+
+    <!-- Ingreso de accesorios deportivos carrusel -->
+    <h1 class="lema ropa-deportiva" id="accesorios-gimnasio">Accesorios</h1>
+
+
+    <div class="carosuel">
+        <div class="carousel__contenedor_1">
+            
+            <div class="carousel__lista_1">
+                <div class="carousel__elemento_1">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 1.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 2.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 3.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 4.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 5.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 6.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 7.jpg" alt="futbol">
+
+                </div>
+                <div class="carousel__elemento">
+                    <img loading="lazy" src="IMG/grid 5/accesorios 8.jpg" alt="futbol">
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div role="tablist" class="carousel__indicadores"></div>
+    </div>
+    <section class="formulario">
+        <!--PARTE 2: FORMULARIOS-->
+        <form id="contacto" action="#" method="post">
+            <h2>Contáctanos</h2>
+            <!-- Agregue la casilla para que se escriba el nombre-->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <!-- Agregue la casilla para que se escriba el correo electronico-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Agregue una lista desplegable-->
+            <label for="asunto">Asunto:</label>
+            <select name="asunto" id="asunto" required>
+                <option value="">Elija un valor</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+            <!-- Agregue un cuadro de mensaje-->
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+            <!-- Agregue un checkbox-->
+            <div class="input_label">
+                <input type="checkbox" name="checkbox" id="suscribe1">
+                <label for="suscribe1">Suscribete al boletín de noticias</label>
+            </div>
+
+            <button id="boton" type="submit">Enviar Mensaje </button>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h2 class="h2-footer">Productos</h2>
+
+                <li><a href="#tenis">Tenis</a></li>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#guayos">Guayos</a></li>
+                <li><a href="#sudaderas">Sudaderas</a></li>
+
+            </div>
+            <div>
+                <h2 class="h2-footer">Deportes</h2>
+                <li><a href="#futbol">Fútbol</a></li>
+                <li><a href="#ciclismo">Ciclismo</a></li>
+                <li><a href="#running">Running</a></li>
+                <li><a href="#basketball">Basketball</a></li>
+                <li><a href="#training">Training</a></li>
+
+            </div>
+            <div>
+                <h2 class="h2-footer">Información de la Empresa</h2>
+                <li><a href="#us">Acerca de nosotros</a></li>
+                <li><a href="#team">Trabaja en Nuestro Equipo</a></li>
+                <li><a href="#pqrs">PQRS</a></li>
+            </div>
+            <div>
+                <h2 class="h2-footer">Contáctanos</h2>
+                <li><a href="#pbx">PBX: (+57) 302542X</a></li>
+                <li><a href="#cel">Cel: 317332541x</a></li>
+                <li><a href="#dir">Carrera 12 # 16 75</a></li>
+                <li><a href="#info">info@fitwave.com</a></li>
+            </div>
+        </div>
+        
+    </footer>
+    <aside class="copyright">
+        <h5> &copy; Creado por Alejandra Orjuela Torres, Jonathan Calderón, Brayan Granados, el 2 de octubre de 2024
+        </h5>
+        </aside>
+
+    <script>
+        // Función para obtener el valor de una cookie por su nombre
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+            return null;
+        }
+
+        // Obtener el nombre del usuario de la cookie
+        const username = getCookie('username');
+        if (username) {
+            document.getElementById('user-name').textContent = username;
+        } else {
+            document.getElementById('user-name').textContent = '.';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+</body>
+
+</html>

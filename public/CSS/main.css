@@ -1,0 +1,78 @@
+/* creación de variables para uso posterior y acceso fácil para más estilos d ela pagina */
+:root {
+  --tema-color: white;
+  --color-primario: #0099FF;
+  --color-secundario: #2bcbb9;
+  --color-inverso: black;
+  --color-texto: white;
+  --menu-bckground-color: #B0B0B0;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--tema-color);
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-inverso);
+}
+
+li {
+  list-style: none;
+
+}
+
+summary {
+  list-style: none;
+}
+
+h1 {
+  font-size: clamp(2em, 5vw, 5em);
+  margin-bottom: .5em;
+}
+h2 {
+  font-size: clamp(2em, 5vw, 5em);
+  margin-bottom: .5em;
+}
+
+/* hola */
+
+@media (min-width: 601px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: clamp(2em, 5vw, 5em);
+    margin-bottom: .3em;
+  }
+  h2 {
+    font-size: clamp(2em, 5vw, 5em);
+    margin-bottom: .3em;
+  }
+}

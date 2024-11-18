@@ -1,0 +1,183 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* creación de estilos para el header mobile first */
+@media (max-width: 600px){
+    .header {
+        background-color: var(--color-primario);
+        display: flex;
+        position: relative;
+        width: 100%;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        padding: 5px;
+        align-items: center;
+        margin: auto;
+        height: 50px;
+    }
+    .open-menu {
+        padding-left: 10px;
+    }
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-img {
+        position: absolute;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        margin: auto;
+        cursor: pointer;
+    }
+    
+    .icons-users {
+    
+        color: var(--color-texto);    
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0;
+        padding: 0px 10px;
+        padding-right: 20px;
+    }
+    
+    /* .header h1, h2 {
+        display: none;
+    } */
+    
+    .logo-img {
+        background-color: black;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: 50vh;
+        border-radius: 10px;
+    
+    }
+    
+    .header-titles {
+        content-visibility: hidden;
+    
+    }
+    /* hola */
+    
+    
+}
+
+
+@media (min-width: 601px) {
+    .header {
+        background-color: var(--color-primario);
+        display: flex;
+        flex-direction: row; /* Alinear elementos en fila */
+        justify-content: space-between; 
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: clamp(170px, 1vw, 350px); /* Altura adaptable */
+        padding: 10px; 
+        margin: 0;
+    }
+
+    .open-menu {
+        display: none;
+    }
+
+    .header-top {
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: flex-start;
+        gap: 10px;
+        flex-wrap: nowrap; /* Evita que los elementos se rompan a otra línea */
+        width: 100%;
+        margin: 0px;
+    }    
+
+    .logo-img {
+        background-color: black;
+        height: clamp(130px, 0.3vw, 286px); 
+        width: clamp(150px, 0.3vw, 330px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static; /* Dejar que siga el flujo normal */
+        margin: 0px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .icons-users {
+        color: var(--color-texto);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 15px; 
+        width: auto; 
+        height: auto;
+        padding: 0;
+    }
+
+    .icons-users > i {
+        height: clamp(15px, 15vw, 50px);
+        width: auto;
+    }
+
+    .header-titles {
+        content-visibility: visible; /* Mostrar contenido */
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left top;
+        font-size: clamp(1em, 0.2vw, 5em); /* Tamaño de texto adecuado */
+        font-weight: bold;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        color: var(--color-texto);
+    }
+
+    .logo-slogan  {
+        font-size: clamp(2em, 0.3vw, 7em)
+    }
+
+    .header-top h1{
+        font-size: clamp(3em, 0.8vw, 10em);
+    }
+    
+    .user,
+    .find,
+    .shop {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+        color: var(--color-texto);
+        font-size: 30px;
+
+    }
+
+    .user:hover,
+    .find:hover,
+    .shop:hover {
+        cursor: pointer;
+        transform: scale(1.8);
+    }
+
+}
+
