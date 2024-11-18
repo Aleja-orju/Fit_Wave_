@@ -39,7 +39,7 @@
 }
 
 
-@media (min-width: 700x) {
+@media (min-width: 700px) {
     .footer {
         background-color: var(--color-primario);
         display: flex;
