@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    max-width: 800px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    font: 18px;
+    margin: 20px;
+}
