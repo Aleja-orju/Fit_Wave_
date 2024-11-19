@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Básicos</title>
+    <style>
+        body {
+            color : #333
+        }
+
+        #contenedor {
+            background-color: #f0f0f0
+        }
+
+        .destacado{
+            font-weight: bold;
+            color: blue
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        ul > li {
+            color: green;  /* Color verde */
+        }
+
+        ul > li:first-child {
+            font-weight: bold;  /* Negrita para el primer elemento */
+            color: blue;        /* Color azul para el primer elemento */
+        }
+
+        /* Estilo para el último elemento de la lista */
+        ul > li:last-child {
+            font-style: italic;  /* Cursiva para el último elemento */
+            color: red;          /* Color rojo para el último elemento */
+        }
+
+        [class] {
+            background-color:palevioletred;
+            border: 3px inset plum;
+        }
+
+        span + span {
+            padding: 10px;
+            border-color: aquamarine;
+            border-radius: 5px;
+            border-style: dotted;
+        }
+
+        div.cajas{
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(220, 20, 60);
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.2);;
+    border-radius: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <h1>Titulo Principal</h1>
+    <p class = 'destacado'>Párrafo destacado</p>
+    <p>Párrafo normal</p>
+    <div id="contenedor">
+        <p>Párrafo dentro de un div</p>
+    </div>
+
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ul>
+    <p><span>Texto</span> con <span>múltiples</span> spans</p>
+    <div class="cajas">
+    </div>
+</body>
+</html>

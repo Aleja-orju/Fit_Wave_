@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Galeria de Usuarios</title>
+</head>
+<body>
+    <div id="galeria-usuarios"></div>
+
+   <script>
+        //Código Fetch aquí
+    fetch("https://jsonplaceholder.typicode.com/users?limit=5")
+        .then(response => response.json())
+        .then(users => {
+            const galeria = document.getElementById('galeria-usuarios'); //BANCO O CONTENEDOR DE DIV
+
+            //Recorremos los usuarios y creamos una tarjeta por cada uno
+            users.forEach(user => {
+                //Creamos un div para la tarjeta
+                const tarjeta = document.createElement('div');
+                tarjeta.classList.add('card');
+                tarjeta.classList.add('tarjeta');
+
+                //Añadimos el nombre del usuario
+                const name = document.createElement('h3');
+                name.classList.add('card-title');
+                name.textContent = user.name;
+
+                //Añadimos el correo
+                const email = document.createElement('p');
+                email.classList.add('card-email');
+                email.textContent = user.email;
+
+                //Agregamos los elementos a la tarjeta
+                tarjeta.appendChild(name);
+                tarjeta.appendChild(email);
+
+                //Agregamos la tarjeta al contenedor de la galeria
+                galeria.appendChild(tarjeta);
+            });
+        })
+        .catch(error => {
+            console.error('Hubo un error al obtener los usuarios: ', error)});
+    </script>
+</body>
+</html>

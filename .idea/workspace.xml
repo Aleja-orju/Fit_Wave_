@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="725fce23-d230-407b-93d5-8446de21e16b" name="Changes" comment="Guardar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Proyecto Final" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bragranav&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bragranav/Fit_Wave_.git&quot;,
+    &quot;accountId&quot;: &quot;51a31bba-a51f-497d-aee6-959795c16e03&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2o8O6K8xfXAA7zlontbckVLhQd9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/brayg/OneDrive/Documentos/GitHub/tiendavirtual",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Proyecto Final\public\IMG" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Proyecto Final\public" />
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Proyecto Final" />
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Proyecto Final\Public" />
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Proyecto Final\view" />
+      <recent name="C:\Users\brayg\OneDrive\Documentos\GitHub\Fit_Wave_\Modulo-5\clase-4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fit_Wave_/Laboratorio 4/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="725fce23-d230-407b-93d5-8446de21e16b" name="Changes" comment="" />
+      <created>1730247559438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730247559438</updated>
+      <workItem from="1730247560551" duration="744000" />
+      <workItem from="1730248312250" duration="4372000" />
+      <workItem from="1730335582855" duration="4441000" />
+      <workItem from="1730854760663" duration="4015000" />
+      <workItem from="1730858835449" duration="3015000" />
+      <workItem from="1730934927162" duration="11535000" />
+      <workItem from="1731022985867" duration="4671000" />
+      <workItem from="1731717926408" duration="7011000" />
+      <workItem from="1731867502742" duration="5195000" />
+      <workItem from="1731873204761" duration="49000" />
+      <workItem from="1731873871189" duration="1379000" />
+      <workItem from="1731875313824" duration="23641000" />
+      <workItem from="1731975394724" duration="625000" />
+      <workItem from="1731981763342" duration="1503000" />
+    </task>
+    <task id="LOCAL-00001" summary="Guardar">
+      <option name="closed" value="true" />
+      <created>1730858620371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730858620371</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Guardar">
+      <option name="closed" value="true" />
+      <created>1731903213299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731903213300</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Guardar">
+      <option name="closed" value="true" />
+      <created>1731903216414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731903216414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Guardar">
+      <option name="closed" value="true" />
+      <created>1731903219099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731903219099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Guardar">
+      <option name="closed" value="true" />
+      <created>1731903995908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731903995908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guardar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guardar" />
+  </component>
+</project>
